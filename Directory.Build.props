@@ -1,0 +1,5 @@
+<Project>
+  <ItemGroup>
+    <Compile Include="..\_Shared\SharedGlobalUsings.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <LangVersion>10</LangVersion>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="DistributedLock.SqlServer" Version="1.0.1" />
+    <PackageReference Include="WebApiContrib.Core.Formatter.Protobuf" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClusterService.Client\ClusterService.Client.csproj" />
+    <ProjectReference Include="..\ClusterService.DataAccess\ClusterService.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
